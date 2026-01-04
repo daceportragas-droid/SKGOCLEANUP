@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SK Clean-Up Connect 🌿</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🌿 SK Clean-Up Connect</h1>
+    <p>Barangay Navarro, General Trias • Youth for Environmental Stewardship</p>
+</header>
+
+<nav>
+    <a href="#upcoming">📅 Upcoming Drive</a>
+    <a href="#steps">📝 How to Join</a>
+    <a href="#stats">📊 Impact Stats</a>
+    <a href="#gallery">📸 Gallery</a>
+    <a href="#badges">🏆 Recognition</a>
+    <a href="#faq">❓ FAQ</a>
+    <a href="#feedback">💬 Feedback</a>
+</nav>
+
+<div class="container">
+
+    <section id="upcoming" class="hero">
+        <h2>🌱 Next Clean-Up Drive</h2>
+        <div class="event-card">
+            <div class="event-info">
+                <div class="info-item">
+                    <strong>📅 Date</strong>
+                    <div>January 15, 2026</div>
+                </div>
+                <div class="info-item">
+                    <strong>🕐 Time</strong>
+                    <div>7:00 AM - 10:00 AM</div>
+                </div>
+                <div class="info-item">
+                    <strong>📍 Location</strong>
+                    <div>Barangay Navarro Park</div>
+                </div>
+            </div>
+            <p style="margin-top: 1.5rem; font-size: 1.1rem;">
+                Join us in keeping our community clean and green! Bring your friends and make a difference together.
+            </p>
+        </div>
+        <a href="#register" style="display: inline-block; background: white; color: #2e7d32; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: bold; margin-top: 1rem;">Register Now →</a>
+    </section>
+
+    <section id="stats">
+        <h2>📊 Our Impact So Far</h2>
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-number">247</div>
+                <div class="stat-label">Student Volunteers</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">1,250 kg</div>
+                <div class="stat-label">Trash Collected</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">12</div>
+                <div class="stat-label">Clean-Up Drives</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">5</div>
+                <div class="stat-label">Areas Cleaned</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="steps">
+        <h2>📝 How to Join</h2>
+        <div class="steps-grid">
+            <div class="step-card">
+                <div class="step-number">1</div>
+                <h3>Learn About the Drive</h3>
+                <p>Check the event details above to know the date, time, and location of our next clean-up drive.</p>
+            </div>
+            <div class="step-card">
+                <div class="step-number">2</div>
+                <h3>Register Online</h3>
+                <p>Fill out the simple registration form below. It only takes 2 minutes!</p>
+            </div>
+            <div class="step-card">
+                <div class="step-number">3</div>
+                <h3>Come and Participate</h3>
+                <p>Show up on the day with gloves, a water bottle, and your enthusiasm to help!</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="register">
+        <h2>✍️ Register for Next Drive</h2>
+        <form id="registrationForm">
+            <div class="form-group">
+                <label for="name">Full Name *</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="grade">Grade Level *</label>
+                <select id="grade" name="grade" required>
+                    <option value="">Select your grade</option>
+                    <option value="11">Grade 11</option>
+                    <option value="12">Grade 12</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="section">Section</label>
+                <input type="text" id="section" name="section" placeholder="e.g., STEM-A">
+            </div>
+            <div class="form-group">
+                <label for="contact">Contact Number *</label>
+                <input type="tel" id="contact" name="contact" placeholder="09XX-XXX-XXXX" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email (Optional)</label>
+                <input type="email" id="email" name="email" placeholder="your.email@example.com">
+            </div>
+            <div class="form-group">
+                <label for="friends">Bringing friends? How many?</label>
+                <input type="number" id="friends" name="friends" min="0" max="10" value="0">
+            </div>
+            <button type="submit">🌿 Register Now</button>
+            <div class="success-message" id="successMessage">
+                ✅ Registration successful! We'll send you a reminder 24 hours before the event.
+            </div>
+        </form>
+    </section>
+
+    <section id="gallery">
+        <h2>📸 Previous Clean-Up Drives</h2>
+        <p style="text-align: center; color: #666; margin-bottom: 1rem;">
+            See the amazing work our volunteers have done in our community!
+        </p>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="cleanup1.jpg" alt="SK Clean-Up Drive General Trias">
+                <div class="gallery-caption">Community Clean-Up Drive - General Trias, December 2024</div>
+            </div>
+            <div class="gallery-item">
+                <img src="cleanup2.jpg" alt="Volunteers clearing debris">
+                <div class="gallery-caption">Clearing Debris - Barangay Navarro, December 2024</div>
+            </div>
+            <div class="gallery-item">
+                <img src="cleanup3.jpg" alt="Youth volunteers sweeping">
+                <div class="gallery-caption">Youth Volunteers in Action - December 2024</div>
+            </div>
+            <div class="gallery-item">
+                <img src="cleanup4.jpg" alt="SK Navarro Clean-Up">
+                <div class="gallery-caption">SK Kabataan Navarro Clean-Up Drive - April 28, 2024</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="badges">
+        <h2>🏆 Recognition & Achievements</h2>
+        <p style="text-align: center; color: #666; margin-bottom: 1rem;">
+            Earn badges as you participate! Download certificates and share your impact.
+        </p>
+        <div class="badge-container">
+            <div class="badge">
+                <div class="badge-icon">🌱</div>
+                <div class="badge-title">First Timer</div>
+                <div>Attended 1st clean-up</div>
+            </div>
+            <div class="badge">
+                <div class="badge-icon">⚡</div>
+                <div class="badge-title">Eco Warrior</div>
+                <div>Attended 3+ drives</div>
+            </div>
+            <div class="badge">
+                <div class="badge-icon">🌟</div>
+                <div class="badge-title">Green Champion</div>
+                <div>Attended 5+ drives</div>
+            </div>
+            <div class="badge">
+                <div class="badge-icon">👥</div>
+                <div class="badge-title">Community Leader</div>
+                <div>Brought 3+ friends</div>
+            </div>
+        </div>
+
+        <h3 style="margin-top: 3rem; text-align: center; color: #2e7d32;">🎯 Top Volunteers This Month</h3>
+        <div class="leaderboard">
+            <div class="leaderboard-item">
+                <div style="display: flex; align-items: center; gap: 1rem;">
+                    <div class="rank">1</div>
+                    <div>
+                        <div style="font-weight: bold;">Maria Santos - Grade 12</div>
+                        <div style="font-size: 0.9rem; color: #666;">7 clean-ups attended</div>
+                    </div>
+                </div>
+                <div style="color: #ffa000; font-size: 1.5rem;">🏆</div>
+            </div>
+            <div class="leaderboard-item">
+                <div style="display: flex; align-items: center; gap: 1rem;">
+                    <div class="rank">2</div>
+                    <div>
+                        <div style="font-weight: bold;">Juan Dela Cruz - Grade 11</div>
+                        <div style="font-size: 0.9rem; color: #666;">6 clean-ups attended</div>
+                    </div>
+                </div>
+                <div style="color: #c0c0c0; font-size: 1.5rem;">🥈</div>
+            </div>
+            <div class="leaderboard-item">
+                <div style="display: flex; align-items: center; gap: 1rem;">
+                    <div class="rank">3</div>
+                    <div>
+                        <div style="font-weight: bold;">Ana Reyes - Grade 12</div>
+                        <div style="font-size: 0.9rem; color: #666;">5 clean-ups attended</div>
+                    </div>
+                </div>
+                <div style="color: #cd7f32; font-size: 1.5rem;">🥉</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq">
+        <h2>❓ Frequently Asked Questions</h2>
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(this)">
+                    How much time does it take?
+                    <span>▼</span>
+                </div>
+                <div class="faq-answer">
+                    Our clean-up drives typically last 2-3 hours (7:00 AM - 10:00 AM). You can leave earlier if needed, but we encourage full participation for maximum impact!
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(this)">
+                    Is it safe? What safety measures are in place?
+                    <span>▼</span>
+                </div>
+                <div class="faq-answer">
+                    Yes, safety is our priority! We provide gloves, safety briefings, adult supervision, and first aid kits. Sharp objects and hazardous waste are handled by trained personnel only.
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(this)">
+                    What should I bring?
+                    <span>▼</span>
+                </div>
+                <div class="faq-answer">
+                    Bring: water bottle, sun protection (hat/sunscreen), comfortable clothes you can get dirty, and your enthusiasm! We provide gloves and trash bags.
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(this)">
+                    Do I need parent permission?
+                    <span>▼</span>
+                </div>
+                <div class="faq-answer">
+                    For students under 18, we recommend informing your parents. If you're a minor, bring a parent consent form (available from SK office or your adviser).
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(this)">
+                    What if I can't attend after registering?
+                    <span>▼</span>
+                </div>
+                <div class="faq-answer">
+                    No problem! Just let us know through our Facebook page or contact the SK office so we can adjust our planning. There's no penalty for canceling.
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(this)">
+                    Can I get community service hours?
+                    <span>▼</span>
+                </div>
+                <div class="faq-answer">
+                    Yes! We provide certificates of participation that can be used for community service requirements. Just let us know you need one when you register.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="feedback">
+        <h2>💬 Share Your Feedback</h2>
+        <p style="text-align: center; color: #666; margin-bottom: 1rem;">
+            Help us improve! Share your experience and suggestions.
+        </p>
+        <form id="feedbackForm">
+            <div class="form-group">
+                <label for="feedbackName">Name (Optional)</label>
+                <input type="text" id="feedbackName" name="feedbackName">
+            </div>
+            <div class="form-group">
+                <label for="rating">How would you rate your experience?</label>
+                <select id="rating" name="rating">
+                    <option value="">Select rating</option>
+                    <option value="5">⭐⭐⭐⭐⭐ Excellent</option>
+                    <option value="4">⭐⭐⭐⭐ Good</option>
+                    <option value="3">⭐⭐⭐ Fair</option>
+                    <option value="2">⭐⭐ Needs Improvement</option>
+                    <option value="1">⭐ Poor</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="comments">Your Comments & Suggestions</label>
+                <textarea id="comments" name="comments" rows="5" placeholder="What did you like? What could we improve?"></textarea>
+            </div>
+            <button type="submit">Submit Feedback</button>
+            <div class="success-message" id="feedbackSuccess">
+                ✅ Thank you for your feedback! We appreciate your input.
+            </div>
+        </form>
+    </section>
+
+</div>
+
+<footer>
+    <p><strong>SK Clean-Up Connect</strong></p>
+    <p>Barangay Navarro, General Trias, Cavite</p>
+    <p style="margin-top: 1rem; font-size: 0.9rem;">
+        📧 Email: sk.navarro@gmail.com | 📱 Contact: 0912-345-6789
+    </p>
+    <p style="margin-top: 1rem; font-size: 0.9rem; opacity: 0.8;">
+        A Youth-Participatory Action Research Initiative | SDG 11 & 12
+    </p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
